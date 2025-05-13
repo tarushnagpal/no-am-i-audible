@@ -122,7 +122,7 @@ export function CallToAction() {
               <h3 className="text-xl font-bold text-white mb-2">Want to learn more?</h3>
               <p className="text-purple-200">Check out our tips for better virtual meeting etiquette.</p>
             </div>
-            <Button className="bg-white text-purple-600 hover:bg-gray-100">Meeting Tips</Button>
+            <Button onClick={() => alert('Just start speaking and check your audio visualizer!')} className="bg-white text-purple-600 hover:bg-gray-100">Meeting Tips</Button>
           </div>
         </div>
       </div>
